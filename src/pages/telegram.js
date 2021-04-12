@@ -11,7 +11,7 @@ export const main = () => {
 export const send = () => {
   return (
     <div className='send'>
-      <h1>Telegram/Seite_Zwei</h1>
+      <h1>Telegram/Gesendete Nachrichten</h1>
     </div>
   );
 };
@@ -19,7 +19,7 @@ export const send = () => {
 export const received = () => {
   return (
     <div className='received'>
-      <h1>Telegram/Seite_Drei</h1>
+      <h1>Telegram/Empfangene Nachrichten</h1>
     </div>
   );
 };
@@ -27,7 +27,7 @@ export const received = () => {
 export const deleted = () => {
   return (
     <div className='deleted'>
-      <h1>Telegram/Seite_Vier</h1>
+      <h1>Telegram/Gelöschte Nachrichten</h1>
     </div>
   );
 };
