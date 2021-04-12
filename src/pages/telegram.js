@@ -33,7 +33,7 @@ export const deleted = () => {
   return (
     <div className='deleted'>
       <h1>Telegram/Gelöschte Nachrichten</h1>
-      <button onClick={sayHello}>Senden!</button>;
+      <button onClick={sayHello}>Senden!</button>
     </div>
   );
 };
