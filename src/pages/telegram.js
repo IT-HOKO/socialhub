@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react'
+import * as utils from '../components/TelegramForm';
 
 export const main = () => {
   return (
@@ -24,11 +25,13 @@ export const received = () => {
   );
 };
 
+
 export const deleted = () => {
   return (
     <div className='deleted'>
       <h1>Telegram/Gelöschte Nachrichten</h1>
-      <button onClick={sayHello}>Senden!</button>
+      <button onClick={utils.sayHello}>Senden!</button>
+      
     </div>
   );
 };
