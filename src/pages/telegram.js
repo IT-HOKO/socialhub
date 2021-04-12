@@ -4,7 +4,7 @@ import * as utils from '../components/TelegramFunctions';
 export const main = () => {
   return (
     <div className='main'>
-      <h1>Hauptseite Telegram</h1>
+      <h1>Hauptseite Telegrm</h1>
     </div>
   );
 };
