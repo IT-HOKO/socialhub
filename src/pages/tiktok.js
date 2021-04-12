@@ -7,3 +7,11 @@ export const tiktok_send = () => {
       </div>
     );
   };
+
+  export const tiktok_api = () =>{
+    return(
+      <div className='tiktok_api'>
+        <h1>TikTok/API</h1>
+    </div>
+    )
+  }
