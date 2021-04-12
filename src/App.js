@@ -17,6 +17,7 @@ function App() {
             <Route path="/telegram/send" exact component={send} />
             <Route path="/telegram/received" exact component={received} />
             <Route path="/telegram/deleted" exact component={deleted} />
+            <Route path="/tiktok/tiktok_send" exact component={tiktok_send} />
             <Route path="/tiktok/send" exact component={tiktok_send} />
             <Route path="/tiktok/send" exact component={tiktok_api} />
           </Switch>
