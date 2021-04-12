@@ -71,6 +71,25 @@ export const SidebarData = [
         ]
     },
     {
+        title: 'TikTok',
+        path: '/tiktok',
+        icon: <FaIcons.FaWhatsapp />,
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+        subNav: [
+            {
+                title: 'Gesendet',
+                path: '/tiktok/send',
+                icon: <IoIcons.IoIosBeer />,
+            },
+            {
+                title: 'Empfangen',
+                path: '/tiktok/received',
+                icon: <IoIcons.IoIosBody />,
+            },
+        ]
+    },
+    {
         title: 'Instagram',
         path: '/insta/',
         icon: <FaIcons.FaCartPlus />
