@@ -79,7 +79,7 @@ export const SidebarData = [
         subNav: [
             {
                 title: 'Gesendet',
-                path: '/tiktok/send',
+                path: '/tiktok/tiktok_send',
                 icon: <IoIcons.IoIosBeer />,
             },
             {
