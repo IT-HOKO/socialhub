@@ -1,9 +1,16 @@
 import React from 'react';
 
-const home = () => {
+export const home = () => {
   return (
     <div className='home'>
       <h1>Hauptseite</h1>
+    </div>
+  );
+};
+export const users = () => {
+  return (
+    <div className='users'>
+      <h1>Hauptseite - User</h1>
     </div>
   );
 };
