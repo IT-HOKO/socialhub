@@ -25,6 +25,33 @@ export const SidebarData = [
         ]
     },
     {
+        title: 'Reports',
+        path: '/reports',
+        icon: <IoIcons.IoIosPaper />,
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+    
+        subNav: [
+          {
+            title: 'Reports',
+            path: '/reports/reports1',
+            icon: <IoIcons.IoIosPaper />,
+            cName: 'sub-nav'
+          },
+          {
+            title: 'Reports 2',
+            path: '/reports/reports2',
+            icon: <IoIcons.IoIosPaper />,
+            cName: 'sub-nav'
+          },
+          {
+            title: 'Reports 3',
+            path: '/reports/reports3',
+            icon: <IoIcons.IoIosPaper />
+          }
+        ]
+      },
+    {
         title: 'Telegram',
         path: '/telegram',
         icon: <AiIcons.AiFillHome />,
