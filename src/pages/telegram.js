@@ -24,11 +24,6 @@ export const received = () => {
   );
 };
 
-{/* Funktion für Button-PopUp */}
-function sayHello() {
-  alert('You clicked me!');
-}
-
 export const deleted = () => {
   return (
     <div className='deleted'>
