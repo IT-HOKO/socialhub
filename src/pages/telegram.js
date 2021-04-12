@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import * as utils from '../components/TelegramForm';
+import * as utils from '../components/TelegramFunctions';
 
 export const main = () => {
   return (
