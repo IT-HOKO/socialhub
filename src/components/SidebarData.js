@@ -73,7 +73,7 @@ export const SidebarData = [
     {
         title: 'TikTok',
         path: '/tiktok',
-        icon: <FaIcons.FaWhatsapp />,
+        icon: <FaIcons.Fa500Px />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
