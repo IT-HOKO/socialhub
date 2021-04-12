@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Overview = () => {
+const home = () => {
   return (
     <div className='home'>
-      <h1>Overview</h1>
+      <h1>Hauptseite</h1>
     </div>
   );
 };
 
-export default Overview;
+export default home;

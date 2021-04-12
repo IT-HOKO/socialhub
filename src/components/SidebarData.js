@@ -6,73 +6,73 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
     {
-        title: 'Overview',
-        path: '/overview',
+        title: 'Home',
+        path: '/home',
         icon: <AiIcons.AiFillHome />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
-                title: 'Users',
-                path: '/overview/users',
+                title: 'Benutzer',
+                path: '/home/users',
                 icon: <IoIcons.IoIosPaper />,
             },
             {
-                title: 'Revenue',
-                path: '/overview/revenue',
+                title: 'API-Token',
+                path: '/home/apitoken',
                 icon: <IoIcons.IoIosPaper />,
             },
         ]
     },
     {
-        title: 'Reports',
-        path: '/reports',
-        icon: <IoIcons.IoIosPaper />,
+        title: 'Telegram',
+        path: '/telegram/main',
+        icon: <FaIcons.FaTelegram />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
     
         subNav: [
           {
-            title: 'Reports',
-            path: '/reports/reports1',
+            title: 'Gesendet',
+            path: '/telegram/send',
             icon: <IoIcons.IoIosPaper />,
             cName: 'sub-nav'
           },
           {
-            title: 'Reports 2',
-            path: '/reports/reports2',
+            title: 'Empfangen',
+            path: '/telegram/received',
             icon: <IoIcons.IoIosPaper />,
             cName: 'sub-nav'
           },
           {
-            title: 'Reports 3',
-            path: '/reports/reports3',
+            title: 'Löschen',
+            path: '/telegram/deleted',
             icon: <IoIcons.IoIosPaper />
           }
         ]
       },
     {
-        title: 'Telegram',
-        path: '/telegram',
-        icon: <AiIcons.AiFillHome />,
+        title: 'Whatsapp',
+        path: '/whatsapp',
+        icon: <FaIcons.FaWhatsapp />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
-                title: 'Messages',
-                path: '/telegram/messages',
+                title: 'Gesendet',
+                path: '/whatsapp/send',
                 icon: <IoIcons.IoIosBeer />,
             },
             {
-                title: 'Ur mom',
-                path: '/telegram/mom',
+                title: 'Empfangen',
+                path: '/whatsapp/received',
                 icon: <IoIcons.IoIosBody />,
             },
         ]
     },
     {
-        title: 'Dominiks Sex-Dungeon',
-        path: '/dome/dungeon',
+        title: 'Instagram',
+        path: '/insta/',
         icon: <FaIcons.FaCartPlus />
     }
 ]
