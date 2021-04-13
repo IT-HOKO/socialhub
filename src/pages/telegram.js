@@ -13,6 +13,7 @@ export const send = () => {
   return (
     <div className='send'>
       <h1>Telegram/Gesendete Nachrichten</h1>
+      <buttom onClick={utils.sayHello}>Test</buttom>
     </div>
   );
 };
