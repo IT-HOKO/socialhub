@@ -22,6 +22,11 @@ export const SidebarData = [
                 path: '/home/apitoken',
                 icon: <IoIcons.IoIosPaper />,
             },
+            {
+                title: 'Test',
+                path: '/home/test',
+                icon: <IoIcons.IoIosPaper />,
+            },
         ]
     },
     {

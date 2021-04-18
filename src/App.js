@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import {home, users} from './pages/home';
 import {main, send, received, deleted} from './pages/telegram'
 import {tiktok_send, tiktok_api} from './pages/tiktok'
+import {test} from './pages/test'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Switch>
             <Route path="/home" exact component={home} />
             <Route path="/home/users" exact component={users}/>
+            <Route path="/home/test" exact component={test}/>
             <Route path="/telegram/main" exact component={main} />
             <Route path="/telegram/send" exact component={send} />
             <Route path="/telegram/received" exact component={received} />
