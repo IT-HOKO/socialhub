@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/socialhub/static/css/main.a4114f27.chunk.css",
-    "main.js": "/socialhub/static/js/main.efdec31b.chunk.js",
-    "main.js.map": "/socialhub/static/js/main.efdec31b.chunk.js.map",
-    "runtime-main.js": "/socialhub/static/js/runtime-main.11234348.js",
-    "runtime-main.js.map": "/socialhub/static/js/runtime-main.11234348.js.map",
-    "static/js/2.02719bd9.chunk.js": "/socialhub/static/js/2.02719bd9.chunk.js",
-    "static/js/2.02719bd9.chunk.js.map": "/socialhub/static/js/2.02719bd9.chunk.js.map",
-    "static/js/3.35705462.chunk.js": "/socialhub/static/js/3.35705462.chunk.js",
-    "static/js/3.35705462.chunk.js.map": "/socialhub/static/js/3.35705462.chunk.js.map",
+    "main.js": "/socialhub/static/js/main.d4534801.chunk.js",
+    "main.js.map": "/socialhub/static/js/main.d4534801.chunk.js.map",
+    "runtime-main.js": "/socialhub/static/js/runtime-main.1d5380bb.js",
+    "runtime-main.js.map": "/socialhub/static/js/runtime-main.1d5380bb.js.map",
+    "static/js/2.af32f666.chunk.js": "/socialhub/static/js/2.af32f666.chunk.js",
+    "static/js/2.af32f666.chunk.js.map": "/socialhub/static/js/2.af32f666.chunk.js.map",
+    "static/js/3.35e136c0.chunk.js": "/socialhub/static/js/3.35e136c0.chunk.js",
+    "static/js/3.35e136c0.chunk.js.map": "/socialhub/static/js/3.35e136c0.chunk.js.map",
     "index.html": "/socialhub/index.html",
     "static/css/main.a4114f27.chunk.css.map": "/socialhub/static/css/main.a4114f27.chunk.css.map",
-    "static/js/2.02719bd9.chunk.js.LICENSE.txt": "/socialhub/static/js/2.02719bd9.chunk.js.LICENSE.txt"
+    "static/js/2.af32f666.chunk.js.LICENSE.txt": "/socialhub/static/js/2.af32f666.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11234348.js",
-    "static/js/2.02719bd9.chunk.js",
+    "static/js/runtime-main.1d5380bb.js",
+    "static/js/2.af32f666.chunk.js",
     "static/css/main.a4114f27.chunk.css",
-    "static/js/main.efdec31b.chunk.js"
+    "static/js/main.d4534801.chunk.js"
   ]
 }
