@@ -1,29 +1,43 @@
 import React from 'react'
-
 export class test extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { username: '' };
-  }
-  myChangeHandler = (event) => {
-    this.setState({username: event.target.value});
-  }
-  render() {
-    let header = '';
-    if (this.state.username) {
-      header = <h1>Hello {this.state.username}</h1>;
-    } else {
-      header = '';
+    constructor(props) {
+      super(props);
+      this.state = {
+        username: '',
+        age: null,
+        errormessage: ''
+      };
     }
-    return (
-      <form>
-      {header}
-      <p>Enter your name:</p>
-      <input
-        type='text'
-        onChange={this.myChangeHandler}
-      />
-      </form>
-    );
+    myChangeHandler = (event) => {
+      let nam = event.target.name;
+      let val = event.target.value;
+      let err = '';
+      if (nam === "age") {
+        if (val !="" && !Number(val)) {
+          err = <strong>Your age must be a number</strong>;
+        }
+      }
+      this.setState({errormessage: err});
+      this.setState({[nam]: val});
+    }
+    render() {
+      return (
+        <form>
+        <h1>Hello {this.state.username} {this.state.age}</h1>
+        <p>Enter your name:</p>
+        <input
+          type='text'
+          name='username'
+          onChange={this.myChangeHandler}
+        />
+        <p>Enter your age:</p>
+        <input
+          type='text'
+          name='age'
+          onChange={this.myChangeHandler}
+        />
+        {this.state.errormessage}
+        </form>
+      );
+    }
   }
-}
